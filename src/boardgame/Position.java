@@ -20,13 +20,13 @@ public class Position {
         return column;
     }
 
-    public void setRow(int row) {
-        this.row = row;
-    }
-
     public void setColumn(int column) {
         this.column = column;
     }
+    
+    public void setRow(int row) {
+        this.row = row;
+    }   
     
     public void setValues(int row, int column){
         this.row = row;
